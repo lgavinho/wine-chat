@@ -1,0 +1,17 @@
+[project]
+name = "wine-chat"
+version = "0.1.0"
+description = "Wine Chat is an AI-powered platform for wine lovers. Discover wine venues, tastings, sommeliers, and curated articles. Whether you're a casual enthusiast or a connoisseur, its delivers personalized recommendations to enhance your wine journey."
+authors = [
+    {name = "Luiz Gustavo Gavinho",email = "lgavinho@gmail.com"}
+]
+license = {text = "proprietary"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
