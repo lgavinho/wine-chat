@@ -8,7 +8,7 @@ authors = [
 license = {text = "proprietary"}
 readme = "README.md"
 requires-python = ">=3.12"
-package-mode = false
+
 dependencies = [
     "streamlit (>=1.41.1,<2.0.0)",
     "toml (>=0.10.2,<0.11.0)",
@@ -18,6 +18,8 @@ dependencies = [
     "fontawesome-free (>=5.15.4,<6.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
